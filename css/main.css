@@ -23,7 +23,11 @@ body {
     float: left;
     padding: 40px;
     background-color: #008fae;
-    color: white;
+    background-image: url(../img/moon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
 }
 
 .main-title {
