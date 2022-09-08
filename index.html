@@ -54,24 +54,50 @@
                 <div class="close">x</div>
                 <form class="form">
                     <div class="form-row">
-                        <label for="" class="label">Username</label>
-                        <input type="text" class="input" />
-                    </div>
-                    <div class="form-row">
-                        <label for="" class="label">Email</label>
+                        <label for="username" class="label">Username</label>
                         <input
+                            id="username"
                             type="text"
                             class="input"
-                            placeholder="alio@valio.lt"
+                            placeholder="Your name"
+                            value=""
+                            required
                         />
                     </div>
                     <div class="form-row">
-                        <label for="" class="label">Password</label>
-                        <input type="text" class="input" />
+                        <label for="email" class="label">Email</label>
+                        <input
+                            id="email"
+                            type="email"
+                            class="input"
+                            placeholder="Your email"
+                            value=""
+                            required
+                        />
                     </div>
                     <div class="form-row">
-                        <label for="" class="label">Repeat Password</label>
-                        <input type="text" class="input" />
+                        <label for="pass" class="label">Password</label>
+                        <input
+                            id="pass"
+                            type="password"
+                            class="input"
+                            placeholder="Your password"
+                            value=""
+                            required
+                        />
+                    </div>
+                    <div class="form-row">
+                        <label for="re-pass" class="label"
+                            >Repeat Password</label
+                        >
+                        <input
+                            id="re-pass"
+                            type="password"
+                            class="input"
+                            placeholder="Same password"
+                            value=""
+                            required
+                        />
                     </div>
                     <div class="form-row">
                         <button type="submit">Get Started</button>
