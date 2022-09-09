@@ -6,11 +6,13 @@
     padding-right: 30px;
     border-radius: 20px;
     border-color: #00f;
-    background-color: #015cda;
+    background: rgb(249, 76, 221);
+    background: linear-gradient(90deg, #234ad5 0%, #0265de 100%);
     color: #fff;
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #36f;
+    background: #0265de;
+    background: linear-gradient(-90deg, #234ad5 0%, #0265de 100%);
 }
