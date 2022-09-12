@@ -1,6 +1,11 @@
 body {
     height: 100vh;
     position: relative;
+    background-image: url(../img/moon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
 }
 
 .container {
